@@ -130,13 +130,13 @@ int main() {
             8                       // hour spend to reapir the car
         },
         // record 2
-        {"CB 7543 AC", "Kiril Marchev", "Brake Replacement", 300.0, {"Brake Pads", "Brake Fluid"}, 4},
+        {"CB7543AC", "Kiril Marchev", "Brake Replacement", 300.0, {"Brake Pads", "Brake Fluid"}, 4},
         // record 3
-        {"EH 5645 AA", "Petar Kanev", "Transmission Overhaul", 1200.0, {"Transmission Fluid", "Clutch Kit"}, 12},
+        {"EH5645AA", "Petar Kanev", "Transmission Overhaul", 1200.0, {"Transmission Fluid", "Clutch Kit"}, 12},
         // record 4
-        {"EB 2342 KK", "Dimitar Penev", "Suspension Repair", 800.0, {"Strut Assembly", "Control Arm"}, 6},
+        {"EB2342KK", "Dimitar Penev", "Suspension Repair", 800.0, {"Strut Assembly", "Control Arm"}, 6},
         // record 5
-        {"JKL012", "Charlie Brown", "Electrical System Check", 150.0, {"Battery", "Alternator"}, 2}
+        {"BH7445KK", "Stoian Denev", "Electrical System Check", 150.0, {"Battery", "Alternator"}, 2}
     };
 
     // Integer variable, used to collect user's choice from the main menu.
