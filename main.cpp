@@ -92,7 +92,6 @@ void displaySingleRepairRecord(const RepairRecord record) {
 
 // Function to display all repair records
 void displayRepairRecords(const vector<RepairRecord>& records) {
-
     // some lines to beautify the output
     cout << endl;
     cout << "-- Repair Records --" << endl;
@@ -101,7 +100,6 @@ void displayRepairRecords(const vector<RepairRecord>& records) {
     for (const auto& record : records) {
         displaySingleRepairRecord(record);
     }
-
 }
 
 // Function to search for a repair record by license plate
