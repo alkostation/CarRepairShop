@@ -35,17 +35,17 @@ void addRepairRecord(vector<RepairRecord>& records) {
     cout << endl;
     // Get the license plate number
     cout << "Enter license plate number: ";
-    cinClear();
-    cin >> newRecord.licensePlate;
+    cin.ignore();
+    getline(cin, newRecord.licensePlate);
 
     // Get the owner's name
     cout << "Enter owner's name: ";
-    cinClear();
-    cin >> newRecord.ownerName;
+    cin.ignore();
+    getline(cin, newRecord.ownerName);
 
     cout << "Enter repair description: ";
-    cinClear();
-    cin >> newRecord.repairDescription;
+    cin.ignore();
+    getline(cin, newRecord.repairDescription);
 
     cout << "Enter repair cost: ";
     cinClear();
